@@ -1,0 +1,101 @@
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: black;
+  color:white;
+  width: 1366px;
+  height: 768px;
+}
+.presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.photo {
+  width: 40%;
+  padding-right: 30px;
+  border-radius: 15%;
+  border: 2px solid orange;
+}
+.photo > img {
+  width: 300px;
+  height: 200px;
+}
+.header_info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.first_name {
+  font-size: 32pt;
+  font-weight: normal;
+}
+.position {
+  font-size: 40pt;
+  font-weight: normal;
+  color:gray;
+}
+.contacts {
+}
+.option_connection {
+  font-size: 18pt;
+  font-weight: normal;
+  color:orange;
+}
+.contacts_links {
+  font-size: 15pt;
+  color:white;
+}
+.about_me {
+  text-indent: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.about_me_left {
+  font-size: 14pt;
+  margin: 20px;
+  width: 40%;
+}
+.about_me_right {
+  font-size: 14pt;
+  margin: 20px;
+  width: 60%;
+}
+.profile {
+}
+.skills {
+}
+.education {
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+.preview {
+  max-width: 100%;
+}
+.project {
+  border: 1px solid orange;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.name_project {
+
+}
+.discription {
+}
+.technology {
+}
+
+p:hover {
+  color: orange;
+}
+a:hover {
+  color: orange;
+}
