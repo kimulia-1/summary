@@ -1,0 +1,86 @@
+/* _________________animation_____________ */
+/* .photo {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.my_photo {
+position: relative;
+width: 300px;
+height: 200px;
+display: flex;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+border-radius: 20px;
+overflow: hidden;
+}
+
+
+.my_photo::before {
+  content: '';
+  position: absolute;
+  width: 170px;
+  height: 200%;
+  background: linear-gradient(orange, white);
+  animation: rotate 4s linear infinite;
+}
+.my_photo::after {
+  content: '';
+  border-radius: 15px;
+  position: absolute;
+  background: #000;
+  inset: 5px;
+}
+.my_photo img {
+  width: 290px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+ @keyframes rotate {
+  from{
+    transform: rotate(0deg)
+  }
+  to{
+    transform: rotate(360deg)
+  }
+  }  */
+/* _______________animation 2_____________ */
+  /* .photo img {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+  }
+  .my_photo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .my_photo::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    animation: blink 3s linear infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } 
+   */
