@@ -56,7 +56,7 @@ body {
 
 .header_info {
   text-align: center;
-  margin: 10px;
+  /* margin: 10px; */
   display: flex;
   flex-direction: column;
 }
