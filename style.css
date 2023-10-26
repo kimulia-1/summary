@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   background-color: black;
   color:white;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .name_section {
@@ -40,10 +41,16 @@ body {
   border: 2px solid orange;
   margin-top: 10px;
   font-weight: bold;
+  background-color: black;
+  color: white;
 }
+
 
 .btn_download:hover {
   background-color: orange;
+  color: black;
+}
+.btn_download:hover a {
   color: black;
 }
 
@@ -133,15 +140,15 @@ a {
   background-color: #0E51A7;
 }
 .education {
- display: flex;
- flex-direction: row-reverse;
- justify-content: center;
- align-items: center;
- margin: 0 auto;
- font-size: 14pt;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14pt;
 }
 .unversity {
- padding: 10px;
+  padding: 10px;
 }
 .school_21 {
   padding: 10px;
@@ -168,16 +175,22 @@ a {
   width: 50%;
   width: 400px;
   font-size: 14pt;
+  align-content: stretch;
+}
+.project p {
+  margin: 0;
+  padding: 20px;
+}
+.project img {
+  width: 400px;
+  padding: 50px 0px;
 }
 .name_project {
-  margin: 0 auto;
+  text-align: center;
   font-size: 20pt;
 }
 .discription {
   font-size: 14pt;
-}
-.discription img {
-  width: 60px;
 }
 .technology {
   font-size: 14pt;
