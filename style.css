@@ -5,7 +5,16 @@ body {
   background-color: black;
   color:white;
   min-width: 1024px;
+}
 
+.name_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  font-size: 14pt;
+  color:orange;
 }
 .presentation {
   margin: 0 auto;
@@ -61,8 +70,6 @@ a {
   font-weight: normal;
   color:gray;
 }
-.contacts {
-}
 .option_connection {
   font-size: 18pt;
   font-weight: normal;
@@ -76,7 +83,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .profile {
   display: flex;
   margin: 0 15%;
@@ -88,17 +94,34 @@ a {
 .profile a {
   color: orange;
 }
-
+.create-line {
+  width: 850px;
+  border-top: 2px solid orange;
+}
 .skills {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0 10%;
+  font-size: 14pt;
 }
-.techo {
+.technologys {
   display: flex;
   flex-direction: row;
+}
+.techo {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-size: 18pt;
+  border: 2px solid orange;
+  border-radius: 33%;
+  text-align: center;
 }
 .techo_web {
 }
@@ -111,33 +134,62 @@ a {
 .techo_dev_ops {
 }
 .education {
- 
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: center;
+ align-items: center;
+ margin: 0 10%;
+ font-size: 14pt;
+}
+.unversity {
+ padding: 10px;
+}
+.school_21 {
+  padding: 10px;
+}
+.date {
+  color: orange;
 }
 .projects {
   display: flex;
   flex-direction: row;
+  margin: 0 10%;
 }
 .preview {
   max-width: 100%;
 }
 .project {
   border: 1px solid orange;
-  margin: 5px;
+  margin: 20px 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   width: 50%;
+  font-size: 14pt;
 }
 .name_project {
-
+  margin: 0 auto;
+  font-size: 20pt;
 }
 .discription {
+  font-size: 14pt;
+}
+.discription img {
+  width: 60px;
 }
 .technology {
+  font-size: 14pt;
+  color: orange;
 }
+
 
 a:hover {
   color: orange;
 }
 .profile a:hover {
  text-decoration: underline;
+}
+
+@media screen and (min-width: 960px) {
+  
 }
