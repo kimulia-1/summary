@@ -55,6 +55,7 @@ body {
 }
 
 .header_info {
+  text-align: center;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -290,7 +291,7 @@ a:hover {
     font-size: 18pt;
   }
   .project img {
-    min-width: 250px;
+    width: 250px;
     font-size: 18pt;
   }
   .technology {
